@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
+    font-size: 11px;
+    color: #1a1a2e;
+    background: #f4f4f4;
+    padding: 16px;
+  }
+  .page {
+    background: white;
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 20px 28px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  }
+  .header { border-bottom: 2px solid #4f46e5; padding-bottom: 10px; margin-bottom: 12px; }
+  .header-top { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 6px; }
+  .header-left h1 { font-size: 20px; font-weight: 700; color: #4f46e5; letter-spacing: 0.5px; }
+  .header-left h2 { font-size: 10.5px; font-weight: 500; color: #555; margin-top: 3px; }
+  .header-right { text-align: right; color: #555; font-size: 10px; line-height: 1.7; }
+  .header-right a { color: #4f46e5; text-decoration: none; }
+  .section { margin-bottom: 10px; }
+  .section-title {
+    font-size: 9px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 1.2px; color: #4f46e5;
+    border-bottom: 1px solid #e0e0f0;
+    padding-bottom: 3px; margin-bottom: 7px;
+  }
+  .entry { margin-bottom: 8px; }
+  .entry-header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .entry-title { font-weight: 700; font-size: 10.5px; }
+  .entry-date { font-size: 10px; color: #888; white-space: nowrap; }
+  .entry-sub { font-size: 10px; color: #555; margin-bottom: 2px; font-style: italic; }
+  .entry ul { padding-left: 13px; margin-top: 3px; }
+  .entry ul li { margin-bottom: 2px; line-height: 1.45; }
+  .sub-label { font-size: 9px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 1px; margin: 7px 0 4px; }
+  .skills-grid { display: grid; grid-template-columns: 110px 1fr; gap: 5px 10px; align-items: start; }
+  .skill-label { font-weight: 600; font-size: 10px; color: #333; padding-top: 2px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag { background: #ede9fe; color: #4f46e5; border-radius: 3px; padding: 1.5px 6px; font-size: 10px; font-weight: 500; }
+  .formation-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 24px; }
+  .formation-item { margin-bottom: 4px; }
+  .formation-title { font-weight: 700; font-size: 10.5px; }
+  .formation-sub { font-size: 10px; color: #555; font-style: italic; }
+  .formation-date { font-size: 10px; color: #888; }
+  .soft-list { display: flex; flex-wrap: wrap; gap: 4px; }
+  .soft-item { background: #f0fdf4; color: #16a34a; border-radius: 3px; padding: 1.5px 7px; font-size: 10px; font-weight: 500; border: 1px solid #bbf7d0; }
+  .impact { color: #16a34a; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <div class="header-top">
+      <div class="header-left">
+        <h1>Wassila AMOURA</h1>
+        <h2>UX/UI Designer &nbsp;·&nbsp; Développeuse Front-End &nbsp;·&nbsp; Figma · React · HTML/CSS</h2>
+      </div>
+      <div class="header-right">
+        Saint-Denis, Île-de-France<br>
+        wassilaamoura8@gmail.com &nbsp;|&nbsp; 06 62 89 23 41<br>
+        <a href="https://www.linkedin.com/in/wassila-amoura">linkedin.com/in/wassila-amoura</a><br>
+        <a href="https://apricot-billboard-d4c.notion.site/Portfolio-UX-UI-Wassila-1ee4f29f3bd180009f58d28d05cc6566">Portfolio Notion</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Profil</div>
+    <p style="line-height:1.55; color:#333;">
+      UX/UI Designer et développeuse front-end avec une double compétence design et développement. Conception d'interfaces sur Figma (Auto Layout, Variants, Composants, Tokens Studio, Design System, Prototypage) et intégration en HTML/CSS, JavaScript et React. Profil hybride permettant de collaborer avec les équipes dev et de valider la faisabilité technique dès la conception. Formatrice en développement web et UX/design, avec une pédagogie ancrée dans les réalités du terrain.
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Expériences professionnelles</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">UX/UI Designer & Développeuse Front-End — Projet Hitting</span>
+        <span class="entry-date">2025 – Présent</span>
+      </div>
+      <div class="entry-sub">Freelance · PWA mobile de gestion de club de boxe</div>
+      <ul>
+        <li>Conception UX/UI complète sur Figma : user flows, wireframes basse et haute fidélité, design system, composants (iPhone 16 — 393×852 pt)</li>
+        <li>Maîtrise avancée Figma : Auto Layout, Variants, Composants, Tokens Studio pour synchronisation design system / code React</li>
+        <li>Développement et déploiement d'une v1 fonctionnelle avec Softr.io + Airtable, utilisée par le client</li>
+        <li>Itérations basées sur les retours client : évolution du système de couleurs, codage genré, refonte des cards boxeurs</li>
+        <li>Analyse de conformité RGPD : données sensibles, consentement explicite, formalisation des sous-traitants</li>
+        <li>V2 en cours : migration vers une PWA React JS déployée sur Netlify</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">UX/UI Designer — Amoki Éditions</span>
+        <span class="entry-date">Mars 2025 – Mai 2025</span>
+      </div>
+      <div class="entry-sub">Freelance · Application mobile iOS de lecture audio d'histoires pour enfants</div>
+      <ul>
+        <li>Conception UX/UI complète sur Figma : wireframes basse et haute fidélité, design system, maquettes, prototypage interactif</li>
+        <li>Les maquettes ont servi de support de présentation pour un dossier de subvention — <span class="impact">subvention obtenue</span></li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Développeuse Web & Designer — GigiRH</span>
+        <span class="entry-date">2025</span>
+      </div>
+      <div class="entry-sub">Freelance · Site web professionnel, secteur RH</div>
+      <ul>
+        <li>Conception visuelle, structure du contenu et déploiement sur Wix</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Formatrice Freelance — Développement Web & UX/Design</span>
+        <span class="entry-date">Juin 2025 – Présent</span>
+      </div>
+      <ul>
+        <li>Animation de formations : HTML/CSS, JavaScript, Git/GitHub, SQL, Accessibilité web (WCAG), Figma, Tailwind CSS</li>
+        <li>Conception des contenus pédagogiques, grilles d'évaluation et supports de cours</li>
+        <li>Accompagnement de groupes projets UX — feedback, évaluation individuelle (/20), stratégies de remédiation</li>
+      </ul>
+    </div>
+
+    <div class="sub-label">Expériences précédentes</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Développeuse Front-End — Fédération Bancaire Française</span>
+        <span class="entry-date">Août 2022 – Octobre 2022</span>
+      </div>
+      <ul>
+        <li>Maintenance et évolution de 6 sites institutionnels (WordPress / Symfony) — optimisation performances +40%</li>
+        <li>Refonte intranet 200+ utilisateurs : nouvelle architecture et amélioration UX</li>
+        <li>Mise en conformité accessibilité RGAA niveau AA : audits et corrections</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Développeuse Front-End — Infodis</span>
+        <span class="entry-date">Janvier 2021 – Mai 2022</span>
+      </div>
+      <ul>
+        <li>Développement front-end sur plateforme EasyVista avec contributions back-end</li>
+        <li>Gestion tickets, évolutions fonctionnelles et collaboration avec les équipes produit</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Compétences techniques</div>
+    <div class="skills-grid">
+      <span class="skill-label">Design</span>
+      <div class="tags">
+        <span class="tag">Figma</span><span class="tag">Auto Layout</span><span class="tag">Variants</span><span class="tag">Composants</span><span class="tag">Tokens Studio</span><span class="tag">Design System</span><span class="tag">Wireframing</span><span class="tag">Prototypage</span><span class="tag">UX Research</span>
+      </div>
+      <span class="skill-label">Développement</span>
+      <div class="tags">
+        <span class="tag">HTML/CSS</span><span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">Tailwind CSS</span><span class="tag">Git / GitHub</span><span class="tag">SQL</span>
+      </div>
+      <span class="skill-label">Outils</span>
+      <div class="tags">
+        <span class="tag">Airtable</span><span class="tag">Softr.io</span><span class="tag">Firebase</span><span class="tag">Netlify</span><span class="tag">Wix</span>
+      </div>
+      <span class="skill-label">Pédagogie</span>
+      <div class="tags">
+        <span class="tag">Conception de formation</span><span class="tag">Évaluation</span><span class="tag">Remédiation</span><span class="tag">Accessibilité WCAG</span><span class="tag">RGPD</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Soft Skills</div>
+    <div class="soft-list">
+      <span class="soft-item">Pédagogie</span><span class="soft-item">Bienveillance</span><span class="soft-item">Rigueur</span><span class="soft-item">Adaptabilité</span><span class="soft-item">Écoute active</span><span class="soft-item">Autonomie</span><span class="soft-item">Curiosité tech</span><span class="soft-item">Esprit critique</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Formation</div>
+    <div class="formation-grid">
+      <div class="formation-item">
+        <div class="formation-title">Certificat Google UX Design</div>
+        <div class="formation-sub">Coursera / Google</div>
+        <div class="formation-date">2025</div>
+      </div>
+      <div class="formation-item">
+        <div class="formation-title">Apple Foundation Program</div>
+        <div class="formation-sub">SwiftUI & UX Design — Simplon</div>
+        <div class="formation-date">2023</div>
+      </div>
+      <div class="formation-item">
+        <div class="formation-title">Diplôme Développeur / Intégrateur Web</div>
+        <div class="formation-sub">IFOCOP</div>
+        <div class="formation-date">2020</div>
+      </div>
+      <div class="formation-item">
+        <div class="formation-title">Master en Sociologie</div>
+        <div class="formation-sub">Université Paris Descartes</div>
+        <div class="formation-date">2013</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Langues</div>
+    <p style="line-height:1.8;">Français — langue natale &nbsp;|&nbsp; Anglais — niveau intermédiaire</p>
+  </div>
+
+</div>
+</body>
+</html>

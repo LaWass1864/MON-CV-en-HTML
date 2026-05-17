@@ -1,255 +1,264 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wassila Amoura - CV</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/lucide@latest"></script>
-  </head>
-  <body>
-    <!-- Gradient definition for icons -->
-    <svg width="0" height="0" style="position: absolute">
-      <defs>
-        <linearGradient id="icon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style="stop-color: #667eea; stop-opacity: 1" />
-          <stop offset="100%" style="stop-color: #764ba2; stop-opacity: 1" />
-        </linearGradient>
-      </defs>
-    </svg>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV – Wassila AMOURA</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
+    font-size: 11px;
+    color: #1a1a2e;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+  }
+  .page {
+    background: white;
+    width: 210mm;
+    padding: 18px 28px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  }
+  .header {
+    border-bottom: 2px solid #4f46e5;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .header-top { display: flex; justify-content: space-between; align-items: flex-end; }
+  .header-left h1 { font-size: 22px; font-weight: 700; color: #4f46e5; letter-spacing: 0.5px; }
+  .header-left h2 { font-size: 11.5px; font-weight: 500; color: #555; margin-top: 2px; }
+  .header-right { text-align: right; color: #555; font-size: 10.5px; line-height: 1.6; }
+  .header-right a { color: #4f46e5; text-decoration: none; }
+  .section { margin-bottom: 7px; }
+  .section-title {
+    font-size: 9.5px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 1.2px; color: #4f46e5;
+    border-bottom: 1px solid #e0e0f0;
+    padding-bottom: 3px; margin-bottom: 7px;
+  }
+  .entry { margin-bottom: 7px; }
+  .entry-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .entry-title { font-weight: 700; font-size: 11px; }
+  .entry-date { font-size: 10px; color: #888; white-space: nowrap; }
+  .entry-sub { font-size: 10px; color: #555; margin-bottom: 2px; font-style: italic; }
+  .entry ul { padding-left: 13px; margin-top: 2px; }
+  .entry ul li { margin-bottom: 1.5px; line-height: 1.45; }
+  .sub-label {
+    font-size: 9px; font-weight: 600; color: #888;
+    text-transform: uppercase; letter-spacing: 1px;
+    margin: 7px 0 5px;
+  }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .skill-group { margin-bottom: 6px; }
+  .skill-label { font-weight: 600; margin-bottom: 2px; font-size: 10.5px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag { background: #ede9fe; color: #4f46e5; border-radius: 3px; padding: 1.5px 6px; font-size: 10px; font-weight: 500; }
+  .soft-list { display: flex; flex-wrap: wrap; gap: 5px; }
+  .soft-item { background: #f0fdf4; color: #16a34a; border-radius: 3px; padding: 1.5px 7px; font-size: 10px; font-weight: 500; border: 1px solid #bbf7d0; }
+  .project { margin-bottom: 5px; }
+  .project-name { font-weight: 700; }
+  .project-desc { color: #444; line-height: 1.5; }
+</style>
+</head>
+<body>
+<div class="page">
 
-    <div class="container">
-      <div class="header">
-        <h1>Wassila Amoura</h1>
-        <h2>Formatrice UX/Web & Designer Front-End</h2>
-        <h3 class="subtitle">Technologies web & accessibilité</h3>
-        <div class="contact-info">
-          <div class="contact-item">
-            <i data-lucide="phone"></i>
-            06 62 89 23 41
+  <!-- EN-TÊTE -->
+  <div class="header">
+    <div class="header-top">
+      <div class="header-left">
+        <h1>Wassila AMOURA</h1>
+        <h2>UX/UI Designer &nbsp;·&nbsp; Développeuse Front-End &nbsp;·&nbsp; Figma · React · HTML/CSS</h2>
+      </div>
+      <div class="header-right">
+        Saint-Denis, Île-de-France<br>
+        wassilaamoura8@gmail.com &nbsp;|&nbsp; 06 62 89 23 41<br>
+        <a href="https://www.linkedin.com/in/wassila-amoura">linkedin.com/in/wassila-amoura</a><br>
+        <a href="https://apricot-billboard-d4c.notion.site/Portfolio-UX-UI-Wassila-1ee4f29f3bd180009f58d28d05cc6566">Portfolio</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROFIL -->
+  <div class="section">
+    <div class="section-title">Profil</div>
+    <p style="line-height:1.55; color:#333;">
+      UX/UI Designer et développeuse front-end, je conçois des interfaces pensées pour l'utilisateur sur Figma, et je les traduis en code (HTML/CSS, React). Mon profil hybride me permet de collaborer efficacement avec les équipes dev et de valider la faisabilité technique de mes designs dès la conception. Formant également des apprenants en développement web et design, je transmets des compétences concrètes ancrées dans les réalités du terrain.
+    </p>
+  </div>
+
+  <!-- EXPÉRIENCES -->
+  <div class="section">
+    <div class="section-title">Expériences professionnelles</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">UX/UI Designer & Développeuse No-Code — Projet Hitting</span>
+        <span class="entry-date">2023 – Présent</span>
+      </div>
+      <div class="entry-sub">Projet client freelance</div>
+      <ul>
+        <li>Conception UX/UI complète sur Figma : user flows, wireframes, design system, composants (PWA mobile, iPhone 16 — 393×852 pt)</li>
+        <li>Développement et déploiement d'une v1 fonctionnelle avec Softr.io + Airtable, utilisée par le client</li>
+        <li>Itérations basées sur les retours client : évolution du système de couleurs, codage genré (bleu/bordeaux), refonte des cards boxeurs</li>
+        <li>V2 en cours : migration vers une PWA React JS déployée sur Netlify</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Formatrice Freelance — Développement Web &amp; UX/Design</span>
+        <span class="entry-date">Juin 2025 – Présent</span>
+      </div>
+      <ul>
+        <li>Animation de formations : HTML/CSS, JavaScript, Git/GitHub, SQL, Accessibilité web (WCAG), Figma, Tailwind CSS</li>
+        <li>Conception des contenus pédagogiques, grilles d'évaluation et supports de cours</li>
+        <li>Accompagnement de groupes projets UX — présentation, feedback, évaluation individuelle (/20)</li>
+        <li>Mise en place de stratégies de remédiation : exercices papier, dictée de code, vérification orale</li>
+      </ul>
+    </div>
+
+    <div class="sub-label">Expériences précédentes</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Développeuse Front-End</span>
+        <span class="entry-date">Août 2022 – Octobre 2022</span>
+      </div>
+      <div class="entry-sub">Fédération Bancaire Française</div>
+      <ul>
+        <li>Maintenance et évolution de 6 sites institutionnels (WordPress / Symfony) — optimisation performances +40%</li>
+        <li>Refonte intranet 200+ utilisateurs : nouvelle architecture et amélioration UX</li>
+        <li>Mise en conformité accessibilité RGAA niveau AA : audits et corrections</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Développeuse Front-End</span>
+        <span class="entry-date">Janvier 2021 – Mai 2022</span>
+      </div>
+      <div class="entry-sub">Infodis</div>
+      <ul>
+        <li>Développement front-end sur plateforme EasyVista avec contributions back-end</li>
+        <li>Gestion tickets, évolutions fonctionnelles et collaboration avec les équipes produit</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJETS -->
+  <div class="section">
+    <div class="section-title">Autres projets</div>
+    <div class="project">
+      <span class="project-name">GigiRH</span> —
+      <span class="project-desc">Site web réalisé pour une cliente, conçu et déployé sur Wix.</span>
+    </div>
+  </div>
+
+  <!-- COMPÉTENCES + SOFT SKILLS + FORMATION + LANGUES -->
+  <div class="two-col">
+    <div>
+      <div class="section">
+        <div class="section-title">Compétences techniques</div>
+        <div class="skill-group">
+          <div class="skill-label">Design</div>
+          <div class="tags">
+            <span class="tag">Figma</span>
+            <span class="tag">UX Research</span>
+            <span class="tag">Wireframing</span>
+            <span class="tag">Design System</span>
+            <span class="tag">Prototypage</span>
           </div>
-          <div class="contact-item">
-            <i data-lucide="mail"></i>
-            <a href="mailto:wassilaamoura8@gmail.com"
-              >wassilaamoura8@gmail.com</a
-            >
+        </div>
+        <div class="skill-group" style="margin-top:5px;">
+          <div class="skill-label">Développement</div>
+          <div class="tags">
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">SQL</span>
           </div>
-          <div class="contact-item">
-            <i data-lucide="linkedin"></i>
-            <a href="https://linkedin.com/in/wassila-amoura" target="_blank"
-              >LinkedIn</a
-            >
+        </div>
+        <div class="skill-group" style="margin-top:5px;">
+          <div class="skill-label">Outils & Plateformes</div>
+          <div class="tags">
+            <span class="tag">Airtable</span>
+            <span class="tag">Softr.io</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Netlify</span>
+            <span class="tag">Wix</span>
           </div>
-          <div class="contact-item">
-            <i data-lucide="globe"></i>
-            <a
-              href="https://apricot-billboard-d4c.notion.site/Portfolio-UX-UI-Wassila-1ee4f29f3bd180009f58d28d05cc6566"
-              target="_blank"
-              >Portfolio UX/UI</a
-            >
-          </div>
-          <!-- cv en react -->
-          <div class="contact-item">
-            <i data-lucide="code"></i>
-            <a href="https://autodit-react.netlify.app/" target="_blank"
-              >Portfolio ReactJS</a
-            >
+        </div>
+        <div class="skill-group" style="margin-top:5px;">
+          <div class="skill-label">Pédagogie</div>
+          <div class="tags">
+            <span class="tag">Conception de formation</span>
+            <span class="tag">Évaluation</span>
+            <span class="tag">Remédiation</span>
+            <span class="tag">Accessibilité WCAG</span>
           </div>
         </div>
       </div>
 
-      <div class="about">
-        UX/UI designer qui décortique les parcours utilisateurs comme une
-        enquête. J'identifie où ça coince, pourquoi, et comment y remédier.
-        Entre recherche terrain, design d'interfaces et développement front-end,
-        je transforme les insights en solutions accessibles et fonctionnelles.
-        Formatrice convaincue, je transmets cette démarche d'investigation et
-        mes compétences techniques avec passion.
-      </div>
-
-      <div class="two-column">
-        <div>
-          <div class="section">
-            <h3 class="section-title">Compétences</h3>
-            <div class="skill-item">
-              <div class="skill-title">Design UX/UI</div>
-              <div class="skill-content">
-                Figma, design system, wireframes, prototypage interactif
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-title">Recherche utilisateur</div>
-              <div class="skill-content">
-                Tests, entretiens, personas, parcours, AB testing
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-title">Accessibilité</div>
-              <div class="skill-content">
-                Normes WCAG 2.1 AA, audits, formation publics tech & non-tech
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-title">Développement</div>
-              <div class="skill-content">
-                HTML/CSS, JavaScript, ReactJS, WordPress, Wix, EasyVista
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-title">No-code</div>
-              <div class="skill-content">
-                Airtable, Softr.io (bases de données relationnelles,
-                automatisations, interfaces web)
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-title">Pédagogie</div>
-              <div class="skill-content">
-                4 formations menées, outils interactifs (Kahoot), adaptation aux
-                publics variés
-              </div>
-            </div>
-          </div>
-
-          <div class="section">
-            <h3 class="section-title">Projets</h3>
-            <div class="project-item">
-              <div class="project-name">Amoki</div>
-              <div class="project-description">
-                Cartes audio enfants, maquettes Figma, financement BPI
-              </div>
-            </div>
-            <div class="project-item">
-              <div class="project-name">GigiRH</div>
-              <div class="project-description">
-                Site RH, conception UX complète, intégration Wix
-              </div>
-            </div>
-            <div class="project-item">
-              <div class="project-name">Google UX Certificate</div>
-              <div class="project-description">
-                3 projets, tests 45 participants
-              </div>
-            </div>
-            <div class="project-item">
-              <div class="project-name">Hitting</div>
-              <div class="project-description">
-                Plateforme matchmaking boxe, 4 bases Airtable (86 boxeurs,
-                coachs, demandes match, événements), interface Softr.io,
-                automatisations. En cours depuis septembre 2025.
-              </div>
-            </div>
-          </div>
-
-          <div class="section">
-            <h3 class="section-title">Formations</h3>
-            <div class="formation-item">
-              <div class="formation-name">Google UX Design Certificate</div>
-              <div class="formation-details">Coursera, 2025</div>
-            </div>
-            <div class="formation-item">
-              <div class="formation-name">Apple Foundation Program</div>
-              <div class="formation-details">Simplon, 2023</div>
-            </div>
-            <div class="formation-item">
-              <div class="formation-name">Formation Développeur Web</div>
-              <div class="formation-details">Ifocop, 2020</div>
-            </div>
-            <div class="formation-item">
-              <div class="formation-name">Master Sociologie</div>
-              <div class="formation-details">Paris Descartes, 2013</div>
-            </div>
-            <div class="languages">
-              <strong>Langues</strong><br />
-              Français (natif), Anglais, Espagnol, Arabe (courant)
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="section">
-            <h3 class="section-title">Expériences</h3>
-
-            <div class="experience-item">
-              <div class="experience-header">
-                <div class="job-title">UX/UI Designer – Freelance</div>
-                <div class="job-period">Juin 2024 – Aujourd'hui</div>
-              </div>
-              <div class="job-description">
-                Conception de parcours utilisateurs et d'interfaces web/mobile.
-                Prototypage Figma, tests utilisateurs, accessibilité WCAG.
-                Collaboration avec développeurs et accompagnement client.
-              </div>
-            </div>
-
-            <div class="experience-item">
-              <div class="experience-header">
-                <div class="job-title">Formatrice UX/Web – Freelance</div>
-                <div class="job-period">Juin 2025 – Aujourd'hui</div>
-              </div>
-              <div class="job-description">
-                 <strong>Fondamentaux UX/UI Design</strong> — 5 séances durant 2025, 30 étudiants, Ingetis Paris 5, M1 DEV/DATA<br /><br />
-                <strong>Portfolio Tailwind (Orléans)</strong> — 1-3 octobre
-                2025, 22 étudiants CODA École d'informatique, accompagnement B2
-                full stack création portfolio<br /><br />
-                <strong>HTML/CSS (Roubaix)</strong> — 16 septembre 2025, 10
-                apprenants Label Emmaüs, bases développement web<br /><br />
-                <strong>PWA (Nantes)</strong> — 30 juin-2 juillet 2025, 24
-                étudiants, applications web progressives<br /><br />
-                <strong>Accessibilité (Auxerre)</strong> — 19 juin 2025, 26
-                étudiants, normes WCAG 2.1, ateliers pratiques<br /><br />
-                <em class="pedagogy-note"
-                  >Pédagogie interactive avec supports adaptés et quiz
-                  Kahoot</em
-                >
-              </div>
-            </div>
-
-            <div class="experience-item">
-              <div class="experience-header">
-                <div class="job-title">Développeuse Front-End</div>
-                <div class="job-period">Août 2022 – Octobre 2022</div>
-              </div>
-              <div class="job-description">
-                <em class="company-name">Fédération bancaire française</em
-                ><br />
-                Maintenance et évolution de 6 sites (WordPress/Symfony). Gestion
-                des bugs et demandes de modifications inter-services.
-                Optimisation performance (+40%). Refonte intranet 200+
-                utilisateurs. Conformité RGAA niveau AA.
-              </div>
-            </div>
-
-            <div class="experience-item">
-              <div class="experience-header">
-                <div class="job-title">Développeuse Front-End</div>
-                <div class="job-period">Janvier 2021 – Mai 2022</div>
-              </div>
-              <div class="job-description">
-                <em class="company-name">Infodis</em><br />
-                Développement front-end sur la plateforme EasyVista avec
-                contributions back-end. Gestion des tickets et évolutions
-                fonctionnelles.
-              </div>
-            </div>
-
-            <div class="experience-item">
-              <div class="experience-header">
-                <div class="job-title">Secrétaire – Amicale des Locataires</div>
-                <div class="job-period">Août 2023 – Aujourd'hui</div>
-              </div>
-              <div class="job-description">
-                Animation réunions 40 membres. Digitalisation démarches.
-                Expérience terrain smart access. Bénévolat.
-              </div>
-            </div>
-          </div>
+      <div class="section" style="margin-top:4px;">
+        <div class="section-title">Soft Skills</div>
+        <div class="soft-list">
+          <span class="soft-item">Pédagogie</span>
+          <span class="soft-item">Bienveillance</span>
+          <span class="soft-item">Rigueur</span>
+          <span class="soft-item">Adaptabilité</span>
+          <span class="soft-item">Écoute active</span>
+          <span class="soft-item">Autonomie</span>
+          <span class="soft-item">Curiosité tech</span>
+          <span class="soft-item">Esprit critique</span>
         </div>
       </div>
     </div>
 
-    <script>
-      lucide.createIcons();
-    </script>
-  </body>
+    <div>
+      <div class="section">
+        <div class="section-title">Formation</div>
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">Certificat Google UX Design</span>
+            <span class="entry-date">2025</span>
+          </div>
+          <div class="entry-sub">Coursera / Google</div>
+        </div>
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">Apple Foundation Program</span>
+            <span class="entry-date">2023</span>
+          </div>
+          <div class="entry-sub">SwiftUI &amp; UX Design — Simplon</div>
+        </div>
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">Diplôme Développeur / Intégrateur Web</span>
+            <span class="entry-date">2020</span>
+          </div>
+          <div class="entry-sub">IFOCOP</div>
+        </div>
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">Master en Sociologie</span>
+            <span class="entry-date">2013</span>
+          </div>
+          <div class="entry-sub">Université Paris Descartes</div>
+        </div>
+      </div>
+
+      <div class="section" style="margin-top:4px;">
+        <div class="section-title">Langues</div>
+        <p style="line-height:1.8;">Français — langue natale<br>Anglais — niveau intermédiaire</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
 </html>
